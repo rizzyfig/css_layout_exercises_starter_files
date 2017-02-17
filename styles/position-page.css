@@ -1,7 +1,6 @@
 body {
-	/*background-image: url("/images/outerspace_landscape.jpeg"); Not Working*/
-	width: 100%;
-	height: 100%;
+	background: url("../images/outerspace_landscape.jpeg") no-repeat; 
+	background-size: cover;
 
 }
 nav {
@@ -43,8 +42,7 @@ nav ul li {
 }
 
 .cat {
-	background-color: blue;
-	/*images not working*/
+	background-image: url("../images/spacecat.png");
 	width: 200px;
 	height: 200px;
 	position: relative;
@@ -54,8 +52,7 @@ nav ul li {
 }
 
 .dog {
-	background-color: red;
-	/*images not working*/
+	background-image: url("../images/spacedog.png");
 	width: 200px;
 	height: 200px;
 	position: relative;
